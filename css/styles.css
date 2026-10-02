@@ -800,9 +800,14 @@ a {
 
 @media (min-width: 640px) {
   .visit-cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
   }
+}
+
+.hours-lead {
+  margin-bottom: 0.35rem !important;
+  font-weight: 600;
 }
 
 .visit-block h3 {

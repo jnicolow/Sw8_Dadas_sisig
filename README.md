@@ -1,10 +1,11 @@
 # Sw8 dada's Sizzling Sisig — website draft
 
-Unofficial static prototype for **Sw8 dada's Sizzling Sisig** (Waipahu, HI).  
-This site was **not** created by the business.
+Website draft for **Sw8 dada's Sizzling Sisig** (Waipahu, HI).  
+Not related to or made by the restaurant.
 
 - **Address:** 94-226 Leoku St, Ste 9, Waipahu, HI 96797  
-- **Phone:** 808-387-9554
+- **Phone:** 808-387-9554  
+- **Hours:** Open every day — Mon–Sat 10am–7pm, Sunday 10am–6pm
 
 ## Local preview
 
@@ -16,7 +17,7 @@ npx --yes serve .
 
 ## Deploy on Netlify (free)
 
-Source stays private on GitHub; visitors only get the compiled static files.
+Source stays private on GitHub; visitors only get the static files.
 
 1. Push this repo to a **private** GitHub repository.
 2. Sign in at [netlify.com](https://www.netlify.com) with GitHub.
@@ -30,8 +31,8 @@ Source stays private on GitHub; visitors only get the compiled static files.
 
 Zip the project (or the folder containing `index.html`, `css/`, `js/`, `media/`) and drop it on [app.netlify.com/drop](https://app.netlify.com/drop).
 
-## Why Netlify for a pitch draft
+## Why Netlify fits
 
-- Clients only see HTML/CSS/JS in the browser; your repo can stay private.
+- Visitors only see HTML/CSS/JS in the browser; your repo can stay private.
 - Free starter tier works with private GitHub repos.
-- Free `*.netlify.app` subdomain — no custom domain needed for the draft.
+- Free `*.netlify.app` subdomain — no custom domain needed for a draft.
